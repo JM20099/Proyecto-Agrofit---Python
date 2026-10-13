@@ -13,15 +13,15 @@ Sistema en Python conectado a MySQL para la gestión de acondicionamiento físic
 │
 ├── 📁 usuarios/
 │   ├── 📄 conexion.py          # Conexión parametrizada a MySQL
-│   ├── 📄 usuario.py           # Modelo de usuario, registro multi-rol y cifrado SHA-256
-│   └── 📄 acciones.py          # Flujo de registro, login y enrutamiento principal
+│   ├── 📄 usuario.py           # Modelo de usuario y registro multi-rol 
+│   └── 📄 acciones.py          # Flujo de registro y login
 │
 ├── 📁 inicio/
 │   ├── 📄 rutina.py            # Operaciones SQL: rutinas, ejercicios, músculos y progreso
 │   └── 📄 acciones.py          # Panel interactivo para el Entrenador
 │
 └── 📁 inicio_usuario/
-    ├── 📄 inicio.py            # Consultas de perfil para Aprendices/Funcionarios
+    ├── 📄 inicio.py            # Consultas de perfil para Aprendices/Funcionario
     └── 📄 acciones.py          # Visualización de rutinas y progresos del usuario
 ```
 ---
